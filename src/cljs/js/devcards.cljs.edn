@@ -1,0 +1,4 @@
+{:require [algopop.keysethero.devcards]
+ :init-fns [algopop.keysethero.devcards/init]
+ :compiler-options {:asset-path "js/devcards.out"
+                    :devcards true}}
